@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frame</title>
+    <style>
+        .photo-frame {
+            width: 300px;
+            height: 200px;
+            border: 10px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+
+        }
+        .photo-frame .photo img{
+            width: 100%;
+        }
+        .photo-details{
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            top: 0;
+            display: none;
+
+        }
+        .photo-frame:hover .photo-details{
+            display: block;
+            background-color: rgb(112, 104, 82);
+        }
+        .photo-frame:hover .photo-details h3{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        .photo-frame:hover .photo-details p{
+            color: white;
+        }
+        .photo-album{
+            display: flex;
+           flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>my photo book</h1>
+    <section class="photo-album">
+     <div class="photo-frame">
+         <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+        <div class="photo-details">
+            <h3>Royal bangal tiger</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci nihil magni sed pariatur cupiditate dicta asperiores voluptas quis eum.</p>
+        </div>
+     </div>
+     <div class="photo-frame">
+        <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+       <div class="photo-details">
+           <h3>Royal bangal tiger</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci nihil magni sed pariatur cupiditate dicta asperiores voluptas quis eum.</p>
+       </div>
+    </div>
+    <div class="photo-frame">
+        <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+       <div class="photo-details">
+           <h3>Royal bangal tiger</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci nihil magni sed pariatur cupiditate dicta asperiores voluptas quis eum.</p>
+       </div>
+    </div>
+    <div class="photo-frame">
+        <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+       <div class="photo-details">
+           <h3>Royal bangal tiger</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci nihil magni sed pariatur cupiditate dicta asperiores voluptas quis eum.</p>
+       </div>
+    </div>
+    <div class="photo-frame">
+        <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+       <div class="photo-details">
+           <h3>Royal bangal tiger</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci nihil magni sed pariatur cupiditate dicta asperiores voluptas quis eum.</p>
+       </div>
+    </div>
+    <div class="photo-frame">
+        <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+       <div class="photo-details">
+           <h3>Royal bangal tiger</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci nihil magni sed pariatur cupiditate dicta asperiores voluptas quis eum.</p>
+       </div>
+    </div>
+    <div class="photo-frame">
+        <div class="photo"><img src="images/tiger.jpg" alt=""></div>
+       <div class="photo-details">
+           <h3>Royal bangal tiger</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci nihil magni sed pariatur cupiditate dicta asperiores voluptas quis eum.</p>
+       </div>
+    </div>
+
+    </section>
+   
+</body>
+</html>
